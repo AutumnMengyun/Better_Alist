@@ -95,6 +95,50 @@ body{
     transition: bottom 1.3s cubic-bezier(0,2.06,.56,.78);
     bottom: -230px
 }
+/*白天模式 搜索按钮+视图选择 毛玻璃*/
+.hope-ui-light .hope-c-PJLV-iikaotv-css, /*视图选择 */
+.hope-ui-light .hope-c-PJLV-igvffcO-css{  /*搜索按钮 */
+   background-color: rgba(255,255,255,0.2)!important;
+   backdrop-filter: blur(10px)!important;
+   padding: var(--hope-space-1)!important;
+}
+/*夜间模式 搜索按钮+视图选择 毛玻璃*/
+.hope-ui-dark .hope-c-PJLV-iikaotv-css, /*视图选择 */
+.hope-ui-dark .hope-c-PJLV-igvffcO-css{ /*搜索按钮 */
+    background-color: rgb(0 0 0 / 20%)!important;
+    backdrop-filter: blur(10px)!important;
+    padding: var(--hope-space-1)!important;
+}
+/*亮色搜索框颜色*/
+.hope-ui-light .hope-c-PJLV-igvffcO-css {
+background: #e1f0ffeb;;
+}
+/*白天搜索主体透明+毛玻璃*/
+.hope-ui-light .hope-c-hOYTCS {
+   background: rgba(255,255,255,0.2)!important;;
+   backdrop-filter: blur(10px)!important;;
+}
+/*白天搜索栏透明+毛玻璃*/
+.hope-ui-light .hope-c-kvTTWD-hYRNAb-variant-filled{
+   background: rgba(255,255,255,0.2)!important;;
+   backdrop-filter: blur(10px)!important;;
+}
+
+/*夜间搜索主体透明+毛玻璃*/
+.hope-ui-dark .hope-c-hOYTCS{
+	background: rgb(0 0 0 / 10%)!important;;
+    backdrop-filter: blur(10px)!important;;
+}
+/*夜间搜索栏透明+毛玻璃*/
+.hope-ui-dark .hope-c-kvTTWD-hYRNAb-variant-filled{
+	background: rgb(0 0 0 / 10%)!important;;
+    backdrop-filter: blur(10px)!important;;
+}
+/*搜索文件路径字体颜色*/
+.hope-c-PJLV-ibveQmV-css {
+    color: #e6e6e6;;
+    word-break: break-all;;
+}
 @media print,screen and (max-width: 1024px) {
     .sw-Hennnyano {
         width:25.26042vw;
